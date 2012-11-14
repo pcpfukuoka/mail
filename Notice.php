@@ -1,8 +1,8 @@
 <?php
 
-	require_once('qdmail.php');
+	require_once('qdsmtp.php');
 
-	$mail = & new Qdmail();
+	$mail = new Qdmail();
 
 	$mail -> smtp(true);
 
@@ -25,3 +25,5 @@
 	$return_flag = $mail ->send();
 
 ?>
+
+<html><head></head><body>aaaa</body></html>
